@@ -1,0 +1,35 @@
+.bg-color::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 2560px;
+  height: 720px;
+  z-index: var(--z-index-below);
+}
+
+.bg-color-bright::before {
+  background-color: var(--color-primary);
+}
+
+.bg-color-dark::before {
+  background-color: var(--color-secondary);
+}
+
+.bg-cookie::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+.bg-cookie-bright::before {
+  background-image: url('../img/cookie-bg-white.png');
+  opacity: 0.25;
+}
+
+.bg-cookie-dark::before {
+  background-image: url('../img/cookie-bg-black.png');
+  opacity: 1;
+}

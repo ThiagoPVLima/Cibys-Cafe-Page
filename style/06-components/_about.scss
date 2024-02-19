@@ -1,0 +1,26 @@
+.about {
+  height: 720px;
+}
+
+.about::before {
+  top: 720;
+}
+
+.about-tag::after {
+  position: absolute;
+  height: 180px;
+  left: 0;
+  top: 656;
+  content: '. about . about . about . about . about . about . abo';
+  font-family: var(--font-family-cooper);
+  font-size: var(--font-step-5);
+  overflow: clip;
+  white-space: nowrap;
+  color: var(--color-primary);
+}
+
+.about-bg::before {
+  top: 720;
+  height: 1440;
+}
+

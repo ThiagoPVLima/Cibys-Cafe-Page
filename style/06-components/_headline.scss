@@ -1,0 +1,9 @@
+.headline {
+  height: 80px;
+}
+
+.headline::before {
+  background-color: var(--color-tertiary);
+  opacity: 0.5;
+  height: 80px;
+}

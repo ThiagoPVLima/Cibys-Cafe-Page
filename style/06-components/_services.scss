@@ -1,0 +1,14 @@
+.services {
+  height: 720px;
+}
+
+.services::before {
+  content: '';
+  position: absolute;
+  background-color: var(--color-secondary);
+  left: 0;
+  top: 1440;
+  width: 2560px;
+  height: 720px;
+  z-index: var(--z-index-below);
+}
