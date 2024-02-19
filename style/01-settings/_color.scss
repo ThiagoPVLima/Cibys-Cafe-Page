@@ -1,14 +1,13 @@
 /* prettier-ignore */
 :root {
-  --color-brand-hue: 37;
-  --color-brand-saturation: 11%;
-  --color-brand-lightness: 89%;
+  --color-brand-hue: 38;
+  --color-brand-saturation: 30%;
+  --color-brand-lightness: 84%;
 
   --color-brand: hsl(var(--color-brand-hue) var(--color-brand-saturation) var(--color-brand-lightness));
   --color-primary: var(--color-brand);
   --color-secondary: hsl(var(--color-brand-hue) 40% 9%);
-  --color-tertiary: hsl(27, 72%, 47%);
-  --color: #cf6f21;
+  --color-tertiary: hsl(27 72% 47%);
 
   --color-social-media-facebook: hsl(221 44% 41%);
   --color-social-media-twitter: hsl(196 100% 46%);

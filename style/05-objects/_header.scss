@@ -1,0 +1,7 @@
+$component-name: "header";
+
+.#{$component-name} {
+  background-color: rebeccapurple;
+  grid-area: header;
+  height: 705px;
+}
