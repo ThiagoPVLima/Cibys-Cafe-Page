@@ -1,0 +1,55 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  position: relative;
+  color: var(--color-tertiary);
+  font-family: var(--font-family-philosopher);
+  font-size: var(--font-step-tittle);
+  line-height: 210px;
+}
+
+.title-back {
+  color: var(--color-secondary);
+  position: absolute;
+}
+
+.clip {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 92% 30%, 92% 0, 45% 0, 45% 30%, 35% 30%, 35% 0);
+}
+
+.slogan {
+  font-family: var(--font-family-philosopher);
+  font-size: 16px;
+  align-self: flex-end;
+  margin-right: 80px;
+  margin-bottom: 2px;
+}
+
+.cup {
+  width: 340px;
+  height: 350px;
+  position: absolute;
+}
+
+.singboard {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-secondary);
+  border: 6px solid var(--color-tertiary);
+  width: 1120px;
+  height: 335px;
+}
+
+.cookie-hero {
+  width: 85px;
+  height: 85px;
+}
+
+.slide-text {
+  background-color: var(--color-tertiary);
+  height: 67px;
+}

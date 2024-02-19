@@ -13,6 +13,7 @@ html::after {
   opacity: 0.25;
   background-repeat: repeat;
   overflow: hidden;
+  z-index: var(--z-index-below);
 }
 
 body {
