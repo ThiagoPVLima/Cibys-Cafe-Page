@@ -1,15 +1,15 @@
 .hero {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .title {
-  position: relative;
   color: var(--color-tertiary);
   font-family: var(--font-family-philosopher);
   font-size: var(--font-step-tittle);
   line-height: 210px;
+  position: relative;
 }
 
 .title-back {
@@ -22,34 +22,71 @@
 }
 
 .slogan {
+  align-self: flex-end;
   font-family: var(--font-family-philosopher);
   font-size: 16px;
-  align-self: flex-end;
-  margin-right: 80px;
   margin-bottom: 2px;
+  margin-right: 80px;
 }
 
 .cup {
-  width: 340px;
   height: 350px;
   position: absolute;
+  top: 210px;
+  width: 340px;
 }
 
 .singboard {
-  display: flex;
-  flex-direction: column;
   background-color: var(--color-secondary);
   border: 6px solid var(--color-tertiary);
-  width: 1120px;
+  display: flex;
+  flex-direction: column;
   height: 335px;
+  width: 1120px;
+}
+
+.hero-comments {
+  align-items: center;
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font-family-philosopher);
+  font-size: var(--font-step--1);
+  height: 100%;
+  justify-content: space-between;
+  line-height: 6px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  width: 300px;
+}
+
+.florinda {
+  align-items: flex-end;
+  text-align: end;
+}
+
+.viwer {
+  align-items: flex-start;
+  row-gap: 12px;
+  text-align: start;
 }
 
 .cookie-hero {
-  width: 85px;
   height: 85px;
+  width: 85px;
 }
 
 .slide-text {
   background-color: var(--color-tertiary);
+  font-family: var(--font-family-philosopher);
+  font-size: var(--font-step-2);
   height: 67px;
+  letter-spacing: 6px;
+  line-height: 67px;overflow: clip;
+  padding-bottom: 30px;
+  white-space: nowrap;
 }

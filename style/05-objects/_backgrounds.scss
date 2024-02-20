@@ -1,9 +1,9 @@
 .bg-color::before {
   content: '';
-  position: absolute;
-  left: 0;
-  width: 2560px;
   height: 720px;
+  left: 0;
+  position: absolute;
+  width: 2560px;
   z-index: var(--z-index-below);
 }
 
@@ -16,12 +16,12 @@
 }
 
 .bg-cookie::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  width: 100%;
   background-repeat: repeat;
+  content: '';
+  left: 0;
   overflow: hidden;
+  position: absolute;
+  width: 100%;
 }
 
 .bg-cookie-bright::before {

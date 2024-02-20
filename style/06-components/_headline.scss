@@ -1,9 +1,49 @@
 .headline {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   height: 80px;
+  justify-content: space-between;
+  margin: 0 90px;
 }
 
 .headline::before {
   background-color: var(--color-tertiary);
-  opacity: 0.5;
   height: 80px;
+  opacity: 0.5;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.headline-social {
+}
+
+.social-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  list-style: none;
+}
+
+.social-menu li a {
+  color: var(--color-secondary);
+  font-family: var(--font-family-philosopher);
+  font-size: var(--font-step--1);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.social-menu li:not(:last-child)::after {
+  background-color: var(--color-tertiary);
+  border-radius: 50%;
+  content: '';
+  height: 12px;
+  position: absolute;
+  top: 40px;
+  width: 12px;
+  transform: translateX(50%);
 }

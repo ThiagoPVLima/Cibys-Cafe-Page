@@ -3,12 +3,12 @@
 }
 
 .services::before {
-  content: '';
-  position: absolute;
   background-color: var(--color-secondary);
+  content: '';
+  height: 720px;
   left: 0;
+  position: absolute;
   top: 1440;
   width: 2560px;
-  height: 720px;
   z-index: var(--z-index-below);
 }

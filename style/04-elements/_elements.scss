@@ -3,27 +3,27 @@ html {
 }
 
 html::after {
+  background-image: url('../img/cookie-bg-white.png');
+  background-repeat: repeat;
   content: '';
+  height: 760px;
+  left: 0;
+  opacity: 0.25;
+  overflow: hidden;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 760px;
-  background-image: url('../img/cookie-bg-white.png');
-  opacity: 0.25;
-  background-repeat: repeat;
-  overflow: hidden;
   z-index: var(--z-index-below);
 }
 
 body {
-  position: relative;
   display: grid;
+  grid-template-columns: 1fr 1280px 1fr;
+  position: relative;
   grid-template-areas:
     '. header .'
     '. main .'
     '. footer .';
-  grid-template-columns: 1fr 1280px 1fr;
 }
 
 header {
