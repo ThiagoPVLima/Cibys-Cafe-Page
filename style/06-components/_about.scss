@@ -1,10 +1,11 @@
 .about {
   height: 720px;
+
+    &::before {
+      top: 720;
+    }
 }
 
-.about::before {
-  top: 720;
-}
 
 .about-tag::after {
   position: absolute;

@@ -1,21 +1,17 @@
 .footer {
   height: 360px;
   position: relative;
-}
 
-.footer::before {
-  background-color: red;
-  background-image: url('../img/footer-bg.png');
-  background-repeat: no-repeat;
-  background-size: 2560px 100%;
-  content: '';
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-
-  //
-  //
-  //
+    &::before {
+    background-color: red;
+    background-image: url('../img/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: 2560px 100%;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
 }
