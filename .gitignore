@@ -133,7 +133,7 @@ cscope.po.out
 
 ### Sass template
 .sass-cache/
-*.css.map
+#*.css.map
 
 # Dotenv
 .env
