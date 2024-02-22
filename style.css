@@ -75,22 +75,6 @@
     --color-social-media-github: #333;
   }
 
-  @custom-media --small-down (width< 768px);
-
-  @custom-media --small-up (width> = 768px);
-
-  @custom-media --medium-down (width< 1024px);
-
-  @custom-media --medium-up (width> = 1024px);
-
-  @custom-media --large-down (width< 1440px);
-
-  @custom-media --large-up (width> = 1440px);
-
-  @custom-media --extra-large-down (width< 1920px);
-
-  @custom-media --extra-large-up (width> = 1920px);
-
   :root {
     --transition-duration-default: .305s;
     --transition-duration-complex: .385s;
