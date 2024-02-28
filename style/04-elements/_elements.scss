@@ -1,6 +1,7 @@
 html {
   background-color: var(--color-primary);
-  
+  overflow: auto;
+
     &::after {
       background-image: url('../img/cookie-bg-white.png');
       background-repeat: repeat;

@@ -6,22 +6,20 @@
     }
 }
 
-
 .about-tag::after {
-  position: absolute;
-  height: 180px;
-  left: 0;
-  top: 656;
+  color: var(--color-primary);
   content: '. about . about . about . about . about . about . abo';
   font-family: var(--font-family-cooper);
   font-size: var(--font-step-5);
+  height: 180px;
+  left: 0;
   overflow: clip;
+  position: absolute;
+  top: 660;
   white-space: nowrap;
-  color: var(--color-primary);
 }
 
 .about-bg::before {
-  top: 720;
   height: 1440;
+  top: 720;
 }
-

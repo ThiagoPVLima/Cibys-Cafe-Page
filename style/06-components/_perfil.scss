@@ -1,0 +1,30 @@
+.i-am{
+  padding-top: 130px;
+}
+
+.perfil-photo-container {
+  height: 350px;
+  position: relative;
+  width: 350px;
+}
+
+.perfil-photo {
+  clip-path: circle(50%);
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.border-overlay {
+  border: 10px solid white;
+  border-radius: 50%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.name {
+ }
