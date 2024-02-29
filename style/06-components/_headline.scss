@@ -19,9 +19,6 @@
   width: 50px;
 }
 
-.headline-social {
-}
-
 .social-menu {
   display: flex;
   flex-direction: row;
@@ -32,7 +29,7 @@
       color: var(--color-secondary);
       font-family: var(--font-family-philosopher);
       font-size: var(--font-step--1);
-      font-weight: 700;
+      font-weight: bold;
       text-decoration: none;
     }
 

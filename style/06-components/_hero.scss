@@ -8,6 +8,7 @@
   color: var(--color-tertiary);
   font-family: var(--font-family-philosopher);
   font-size: var(--font-step-tittle);
+  font-style: normal;
   line-height: 210px;
   position: relative;
 }
@@ -87,7 +88,8 @@
   font-size: var(--font-step-2);
   height: 67px;
   letter-spacing: 6px;
-  line-height: 67px;overflow: clip;
+  line-height: 67px;
+  overflow: clip;
   padding-bottom: 30px;
   white-space: nowrap;
 }
