@@ -9,6 +9,7 @@
     "stylelint-high-performance-animation"
   ],
   "rules": {
+    "selector-class-pattern": null,
     "no-empty-source": null,
     "custom-property-pattern": "^([a-z][a-z0-9]*)((-|--)[a-z0-9]+)*$",
     "color-no-invalid-hex": null,

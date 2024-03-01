@@ -2,12 +2,12 @@
   height: 720px;
   border-bottom: 6px solid red;
 
-    &::before {
-      top: 720;
-    }
+  &::before {
+    top: 720;
+  }
 }
 
-.about-tag::after {
+.about__tag::after {
   color: var(--color-primary);
   content: '. about . about . about . about . about . about . abo';
   font-family: var(--font-family-cooper);

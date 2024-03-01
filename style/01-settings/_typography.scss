@@ -34,7 +34,7 @@
   --font-step-3: clamp(1.94rem, calc(0.66rem + 3.22vw), 3.55rem);
   --font-step-4: clamp(2.33rem, calc(0.41rem + 4.81vw), 4.74rem);
   --font-step-5: clamp(2.8rem, calc(-0.01rem + 7.03vw), 6.31rem);
-  --font-step-tittle: clamp(4.8373rem, -3.2554rem + 20.2317vi, 14.9531rem);
+  --font-step-title: clamp(4.8373rem, -3.2554rem + 20.2317vi, 14.9531rem);
 
   // TODO: implement a vertical rhythm
   --font-size-default: var(--font-step-0);
@@ -49,6 +49,6 @@
   --font-family-mono: menlo, consolas, monaco, liberation mono, lucida console,
     monospace;
 
-  --font-family-philosopher: Philosopher-Regular, var(--font-family-sans-serif);
-  --font-family-cooper: Cooper-Black, var(--font-family-sans-serif);
+  --font-family-philosopher: philosopher-regular, var(--font-family-sans-serif);
+  --font-family-cooper: cooper-black, var(--font-family-sans-serif);
 }

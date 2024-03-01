@@ -4,25 +4,36 @@
   flex-direction: column;
 }
 
-.title {
+.hero__title {
   color: var(--color-tertiary);
   font-family: var(--font-family-philosopher);
-  font-size: var(--font-step-tittle);
+  font-size: var(--font-step-title);
   font-style: normal;
   line-height: 210px;
   position: relative;
 }
 
-.title-back {
+.hero__title-back {
   color: var(--color-secondary);
   position: absolute;
 }
 
-.clip {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 92% 30%, 92% 0, 45% 0, 45% 30%, 35% 30%, 35% 0);
+.title__clip {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 30%,
+    92% 30%,
+    92% 0,
+    45% 0,
+    45% 30%,
+    35% 30%,
+    35% 0
+  );
 }
 
 .slogan {
+  color: black;
   align-self: flex-end;
   font-family: var(--font-family-philosopher);
   font-size: 16px;

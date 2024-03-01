@@ -6,41 +6,41 @@
   justify-content: space-between;
   margin: 0 90px;
 
-    &::before {
-      background-color: var(--color-tertiary);
-      height: 80px;
-      opacity: 0.5;
-    }
+  &::before {
+    background-color: var(--color-tertiary);
+    height: 80px;
+    opacity: 0.5;
+  }
 }
 
-.logo {
+.headline__logo {
   border-radius: 50%;
   height: 50px;
   width: 50px;
 }
 
-.social-menu {
+.headline__social-menu {
   display: flex;
   flex-direction: row;
   gap: 26px;
   list-style: none;
 
-    li a {
-      color: var(--color-secondary);
-      font-family: var(--font-family-philosopher);
-      font-size: var(--font-step--1);
-      font-weight: bold;
-      text-decoration: none;
-    }
+  li a {
+    color: var(--color-secondary);
+    font-family: var(--font-family-philosopher);
+    font-size: var(--font-step--1);
+    font-weight: bold;
+    text-decoration: none;
+  }
 
-    li:not(:last-child)::after {
-      background-color: var(--color-tertiary);
-      border-radius: 50%;
-      content: '';
-      height: 12px;
-      position: absolute;
-      top: 40px;
-      transform: translateX(50%);
-      width: 12px;
-    }
+  li:not(:last-child)::after {
+    background-color: var(--color-tertiary);
+    border-radius: 50%;
+    content: '';
+    height: 12px;
+    position: absolute;
+    top: 40px;
+    transform: translateX(50%);
+    width: 12px;
+  }
 }
