@@ -1,22 +1,18 @@
 html {
-  background-color: var(--color-primary);
-  overflow: auto;
-
-    &::after {
-      background-image: url('../img/cookie-bg-white.png');
-      background-repeat: repeat;
-      content: '';
-      height: 760px;
-      left: 0;
-      opacity: 0.25;
-      overflow: hidden;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: var(--z-index-below);
-    }
+  &::after {
+    background-image: url('../img/cookie-bg-white.png');
+    background-repeat: repeat;
+    content: '';
+    height: 760px;
+    left: 0;
+    opacity: 0.25;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: var(--z-index-below);
+  }
 }
-
 
 body {
   display: grid;

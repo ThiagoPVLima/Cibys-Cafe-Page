@@ -7,9 +7,9 @@
   margin: 0 90px;
 
   &::before {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-secondary);
     height: 80px;
-    opacity: 0.5;
+    opacity: 0.1;
   }
 }
 
@@ -19,7 +19,7 @@
   width: 50px;
 }
 
-.headline__social-menu {
+.headline__social {
   display: flex;
   flex-direction: row;
   gap: 26px;

@@ -29,9 +29,9 @@
 
   @font-face {
     font-display: swap;
-    font-family: Philosopher-Regular;
+    font-family: Philosopher;
     font-weight: 400 700;
-    src: url('./font/Philosopher-Regular.woff2') format('woff2');
+    src: url('./font/Philosopher.woff2') format('woff2');
     unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC,
       U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
       U+FEFF, U+FFFD;
@@ -736,7 +736,7 @@
     );
   }
 
-  .slogan {
+  .hero__slogan {
     font-family: var(--font-family-philosopher);
     align-self: flex-end;
     margin-bottom: 0.125rem;
@@ -744,7 +744,7 @@
     font-size: 1rem;
   }
 
-  .cup {
+  .hero__hero__cup {
     width: 21.25rem;
     height: 21.875rem;
     position: absolute;

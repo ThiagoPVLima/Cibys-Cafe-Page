@@ -6,9 +6,7 @@
 
 .hero__title {
   color: var(--color-tertiary);
-  font-family: var(--font-family-philosopher);
   font-size: var(--font-step-title);
-  font-style: normal;
   line-height: 210px;
   position: relative;
 }
@@ -32,16 +30,18 @@
   );
 }
 
-.slogan {
-  color: black;
+.hero__slogan {
   align-self: flex-end;
-  font-family: var(--font-family-philosopher);
+  color: black;
   font-size: 16px;
+  line-height: 16px;
   margin-bottom: 2px;
   margin-right: 80px;
+  text-align: end;
+  width: 150px;
 }
 
-.cup {
+.hero__cup {
   height: 350px;
   position: absolute;
   top: 210px;
@@ -62,7 +62,6 @@
   color: var(--color-primary);
   display: flex;
   flex-direction: row;
-  font-family: var(--font-family-philosopher);
   font-size: var(--font-step--1);
   height: 100%;
   justify-content: space-between;
@@ -95,7 +94,6 @@
 .slide-text {
   background-color: var(--color-tertiary);
   color: var(--color-secondary);
-  font-family: var(--font-family-philosopher);
   font-size: var(--font-step-2);
   height: 67px;
   letter-spacing: 6px;
