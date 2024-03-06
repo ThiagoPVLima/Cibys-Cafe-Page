@@ -722,7 +722,7 @@
     position: absolute;
   }
 
-  .title__clip {
+  .hero__title__clip {
     clip-path: polygon(
       0% 0%,
       100% 0%,
@@ -772,7 +772,7 @@
     display: flex;
   }
 
-  .hero-text {
+  .hero__text {
     flex-direction: column;
     width: 18.75rem;
     line-height: 1.25rem;
@@ -790,7 +790,7 @@
     row-gap: 0.75rem;
   }
 
-  .cookie-hero {
+  .hero__cookie {
     width: 5.3125rem;
     height: 5.3125rem;
   }

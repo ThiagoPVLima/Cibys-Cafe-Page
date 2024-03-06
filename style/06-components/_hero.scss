@@ -2,103 +2,100 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-}
 
-.hero__title {
-  color: var(--color-tertiary);
-  font-size: var(--font-step-title);
-  line-height: 210px;
-  position: relative;
-}
+  &__title {
+    color: var(--color-tertiary);
+    font-size: var(--font-step-title);
+    line-height: 210px;
+    position: relative;
+  }
 
-.hero__title-back {
-  color: var(--color-secondary);
-  position: absolute;
-}
+  &__title-back {
+    color: var(--color-secondary);
+    position: absolute;
+  }
 
-.title__clip {
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 30%,
-    92% 30%,
-    92% 0,
-    45% 0,
-    45% 30%,
-    35% 30%,
-    35% 0
-  );
-}
+  &__title__clip {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 30%,
+      92% 30%,
+      92% 0,
+      45% 0,
+      45% 30%,
+      35% 30%,
+      35% 0
+    );
+  }
+  
+  &__slogan {
+    align-self: flex-end;
+    color: black;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 2px;
+    margin-right: 80px;
+    text-align: end;
+    width: 150px;
+  }
 
-.hero__slogan {
-  align-self: flex-end;
-  color: black;
-  font-size: 16px;
-  line-height: 16px;
-  margin-bottom: 2px;
-  margin-right: 80px;
-  text-align: end;
-  width: 150px;
-}
+  &__cup {
+    height: 350px;
+    position: absolute;
+    top: 210px;
+    width: 340px;
+  }
 
-.hero__cup {
-  height: 350px;
-  position: absolute;
-  top: 210px;
-  width: 340px;
-}
+  &__singboard {
+    background-color: var(--color-secondary);
+    border: 6px solid var(--color-tertiary);
+    display: grid;
+    grid-column-gap: 500px;
+    height: 335px;
+    line-height: 6px;
+    width: 1120px;
+    grid-template:
+      'florinda viwer' 268px
+      'slide-text slide-text' 67px / 1fr 1fr;
+  }
 
-.hero__singboard {
-  background-color: var(--color-secondary);
-  border: 6px solid var(--color-tertiary);
-  display: flex;
-  flex-direction: column;
-  height: 335px;
-  width: 1120px;
-}
+  &__cookie {
+    height: 85px;
+    width: 85px;
+  }
 
-.hero-comments {
-  align-items: center;
-  color: var(--color-primary);
-  display: flex;
-  flex-direction: row;
-  font-size: var(--font-step--1);
-  height: 100%;
-  justify-content: space-between;
-  line-height: 6px;
-}
+  &__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-top: 40px;
+    width: 300px;
+  }
 
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 20px;
-  width: 300px;
 }
 
 .florinda {
   align-items: flex-end;
+  grid-area: florinda;
   text-align: end;
 }
 
 .viwer {
   align-items: flex-start;
+  grid-area: viwer;
   row-gap: 12px;
   text-align: start;
-}
-
-.cookie-hero {
-  height: 85px;
-  width: 85px;
 }
 
 .slide-text {
   background-color: var(--color-tertiary);
   color: var(--color-secondary);
   font-size: var(--font-step-2);
-  height: 67px;
+  grid-area: slide-text;
+  height: 60px;
   letter-spacing: 6px;
   line-height: 67px;
   overflow: clip;
-  padding-bottom: 30px;
   white-space: nowrap;
 }

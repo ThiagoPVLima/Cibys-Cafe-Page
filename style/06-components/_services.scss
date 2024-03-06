@@ -1,15 +1,30 @@
 .services {
   height: 720px;
+  border: 2px solid white;
 
-    &::before {
-      background-color: var(--color-secondary);
-      content: '';
-      height: 720px;
-      left: 0;
-      position: absolute;
-      top: 1440;
-      width: 2560px;
-      z-index: var(--z-index-below);
-    }
+  &::before {
+    background-color: var(--color-secondary);
+    content: '';
+    height: 720px;
+    left: 0;
+    position: absolute;
+    top: 1440;
+    width: 2560px;
+    z-index: var(--z-index-below);
+  }
+
+  &__title {
+    font-size: 76px;
+    text-align: center;
+    position: relative;
+  }
+
+  &__title-back {
+    position: absolute;
+  }
+
+  &__title__clip {
+    color: var(--color-tertiary);
+    clip-path: circle(5.8% at 51% 0);
+  }
 }
-

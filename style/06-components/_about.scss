@@ -1,26 +1,89 @@
 .about {
+  align-items: center;
+  display: flex;
+  font-size: 32px;
   height: 720px;
-  border-bottom: 6px solid red;
+  justify-content: space-around;
+  width: 1280px;
 
   &::before {
     top: 720;
   }
+
+  &__tag::after {
+    color: var(--color-primary);
+    content: '. about . about . about . about . about . about . abo';
+    font-family: var(--font-family-cooper);
+    font-size: var(--font-step-5);
+    height: 180px;
+    left: 0;
+    overflow: clip;
+    position: absolute;
+    top: 660;
+    white-space: nowrap;
+  }
+
+  &__photo-container {
+    height: 350px;
+    position: relative;
+    width: 350px;
+  }
+
+  &__photo {
+    clip-path: circle(50%);
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+  }
+
+  &__presentation {
+    font-size: 22px;
+    position: relative;
+    width: 580px;
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 53%;
+  }
+
+  &-bg::before {
+    height: 1440;
+    top: 720;
+  }
 }
 
-.about__tag::after {
-  color: var(--color-primary);
-  content: '. about . about . about . about . about . about . abo';
-  font-family: var(--font-family-cooper);
-  font-size: var(--font-step-5);
-  height: 180px;
+.border-overlay {
+  border: 6px solid white;
+  border-radius: 50%;
+  height: 100%;
   left: 0;
-  overflow: clip;
   position: absolute;
-  top: 660;
-  white-space: nowrap;
+  top: 0;
+  width: 100%;
 }
 
-.about-bg::before {
-  height: 1440;
-  top: 720;
+.perfil {
+  display: grid;
+  gap: var(--space-s);
+  place-items: center;
+}
+
+.vertical-line {
+  border-left: 6px solid var(--color-tertiary);
+  border-radius: 10px;
+  height: 140px;
+  position: absolute;
+  top: 15px;
+}
+
+.im {
+  color: var(--color-tertiary);
+  float: left;
+  font-size: 200px;
+  font-style: italic;
+  line-height: 0.8;
+  margin-right: 20px;
+  padding-left: 30px;
 }

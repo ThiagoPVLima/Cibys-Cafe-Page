@@ -11,12 +11,12 @@
     height: 80px;
     opacity: 0.1;
   }
-}
 
-.headline__logo {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  &__logo {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .headline__social {
