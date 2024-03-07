@@ -13,18 +13,37 @@
     z-index: var(--z-index-below);
   }
 
-  &__title {
-    font-size: 76px;
-    text-align: center;
+  &__title__container {
     position: relative;
   }
 
-  &__title-back {
-    position: absolute;
-  }
+  // &__title {
+  //   font-size: 76px;
+  //   text-align: center;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  // }
 
-  &__title__clip {
-    color: var(--color-tertiary);
-    clip-path: circle(5.8% at 51% 0);
-  }
+  // // &__title-back {
+  // //   position: absolute;
+  // // }
+
+  // &__title__clip {
+  //   color: var(--color-tertiary);
+  //   clip-path: circle(5% at 55% 12%);
+  // }
+}
+
+.texto1, .texto2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 76px;
+}
+
+.texto2 {
+  color: orange;
+  clip-path: circle(10% at 55% 12%);
 }

@@ -9,6 +9,7 @@
     "stylelint-high-performance-animation"
   ],
   "rules": {
+    "max-nesting-depth": 3,
     "selector-class-pattern": null,
     "no-empty-source": null,
     "custom-property-pattern": "^([a-z][a-z0-9]*)((-|--)[a-z0-9]+)*$",
