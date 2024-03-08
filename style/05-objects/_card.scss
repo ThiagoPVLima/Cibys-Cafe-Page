@@ -1,0 +1,26 @@
+.card {
+  &__container {
+    width: 550px;
+    height: 270px;
+    overflow: hidden;
+  }
+
+  &__image {
+    clip-path: circle(50%);
+    float: left;
+    height: 110px;
+    width: 110px;
+    margin: 0 20px 20px 0;
+  }
+
+  &__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom:10px;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

@@ -19,16 +19,16 @@
     clip-path: polygon(
       0% 0%,
       100% 0%,
-      100% 30%,
-      92% 30%,
+      100% 36%,
+      92% 36%,
       92% 0,
       45% 0,
-      45% 30%,
-      35% 30%,
+      45% 36%,
+      35% 36%,
       35% 0
     );
   }
-  
+
   &__slogan {
     align-self: flex-end;
     color: black;
@@ -98,4 +98,19 @@
   line-height: 67px;
   overflow: clip;
   white-space: nowrap;
+}
+
+.slide-text--animation {
+  animation: text-slider 30s linear infinite;
+  animation-play-state: running;
+}
+
+@keyframes text-slider {
+  0% {
+  transform: translateX(0%);
+  }
+
+  100% {
+  transform: translateX(-100%);
+  }
 }
