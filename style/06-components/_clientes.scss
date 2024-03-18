@@ -1,0 +1,55 @@
+.clientes {
+  color: var(--color-secondary);
+  height: 720px;
+  display: grid;
+  align-items: end;
+  gap: 180px;
+
+  &__title__container {
+    position: relative;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+
+  &__container p {
+    font-weight: bold;
+    font-size: var(--space-s);
+    line-height: 30px;
+  }
+
+  &__title-clip {
+    color: var(--color-tertiary);
+    clip-path: circle(3% at 35% 32%);
+  }
+
+  &__title-back,
+  &__title-clip {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 76px;
+  }
+
+  &__tag::before {
+    color: var(--color-primary);
+    background: var(--gradient-primary);
+    content: 'Pataformas Disponíveis . Pataformas Disponíveis . Pataformas Disponíveis . Pataformas Disponíveis . Pataformas Disponíveis . Pataformas Disponíveis . ';
+    font-size: var(--space-m);
+    height: 80px;
+    left: 0%;
+    bottom: 0;
+    letter-spacing: 2px;
+    line-height: 80px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    box-shadow: -10px -5px 10px rgb(0 0 0 / 30%);
+  }
+}

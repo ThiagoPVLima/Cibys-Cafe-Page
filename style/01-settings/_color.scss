@@ -7,7 +7,10 @@
   --color-brand: hsl(var(--color-brand-hue) var(--color-brand-saturation) var(--color-brand-lightness));
   --color-primary: var(--color-brand);
   --color-secondary: hsl(var(--color-brand-hue) 40% 9%);
-  --color-tertiary: hsl(27 72% 47%);
+  --color-tertiary: hsl(27 90% 47%); /*(27 72% 47%)*/
+  --color-quaternary: hsl(36 99% 42%);
+
+  --gradient-primary: linear-gradient(to right, var(--color-quaternary), var(--color-tertiary));
 
   --color-social-media-facebook: hsl(221 44% 41%);
   --color-social-media-twitter: hsl(196 100% 46%);

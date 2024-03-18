@@ -1,23 +1,24 @@
 html {
-  &::after {
-    background-image: url('../img/cookie-bg-white.png');
-    background-repeat: repeat;
-    content: '';
-    height: 760px;
-    left: 0;
-    opacity: 0.25;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: var(--z-index-below);
-  }
+  position: relative;
+
+  // &::after {
+  //   background-image: url('../img/cookie-bg-white.png');
+  //   background-repeat: repeat;
+  //   content: '';
+  //   height: 760px;
+  //   left: 0;
+  //   opacity: 0.25;
+  //   overflow: hidden;
+  //   position: absolute;
+  //   top: 0;
+  //   width: 100%;
+  //   z-index: var(--z-index-below);
+  // }
 }
 
 body {
   display: grid;
   grid-template-columns: 1fr 1280px 1fr;
-  position: relative;
   grid-template-areas:
     '. header .'
     '. main .'

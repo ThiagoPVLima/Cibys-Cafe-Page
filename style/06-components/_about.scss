@@ -11,7 +11,6 @@
   }
 
   &__tag::after {
-    color: var(--color-primary);
     content: '. about . about . about . about . about . about . abo';
     font-family: var(--font-family-cooper);
     font-size: var(--font-step-5);
@@ -19,7 +18,7 @@
     left: 0;
     overflow: clip;
     position: absolute;
-    top: 660;
+    top: 656;
     white-space: nowrap;
   }
 
@@ -49,7 +48,7 @@
 
   &__arrow {
     position: absolute;
-    top: 53%;
+    top: 46%;
   }
 
   &-bg::before {
@@ -75,7 +74,7 @@
 }
 
 .vertical-line {
-  border-left: 6px solid var(--color-tertiary);
+  border-left: 3px solid var(--color-tertiary);
   border-radius: 10px;
   height: 140px;
   position: absolute;

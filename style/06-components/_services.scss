@@ -4,17 +4,6 @@
   align-items: end;
   gap: 180px;
 
-  &::before {
-    background-color: var(--color-secondary);
-    content: '';
-    height: 720px;
-    left: 0;
-    position: absolute;
-    top: 1440;
-    width: 2560px;
-    z-index: var(--z-index-below);
-  }
-
   &__title__container {
     position: relative;
   }
@@ -31,7 +20,8 @@
     clip-path: circle(10% at 55% 12%);
   }
 
-  &__title-back, &__title-clip {
+  &__title-back,
+  &__title-clip {
     position: absolute;
     top: 0;
     left: 50%;

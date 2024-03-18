@@ -1,35 +1,37 @@
-.bg-color::before {
-  content: '';
-  height: 720px;
-  left: 0;
-  position: absolute;
-  width: 2560px;
-  z-index: var(--z-index-below);
+.bg-color {
+  &::before {
+    content: '';
+    height: 720px;
+    left: 0;
+    position: absolute;
+    width: 2560px;
+    z-index: var(--z-index-below);
+  }
+
+  &--bright::before {
+    background-color: var(--color-primary);
+  }
+
+  &--dark::before {
+    background-color: var(--color-secondary);
+  }
 }
 
-.bg-color--bright::before {
-  background-color: var(--color-primary);
-}
+.bg-cookie {
+  &::before {
+    background-repeat: repeat;
+    content: '';
+    // left: 16;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+  }
 
-.bg-color--dark::before {
-  background-color: var(--color-secondary);
-}
+  &--bright::before {
+    background-image: url('../img/white.png');
+  }
 
-.bg-cookie::before {
-  background-repeat: repeat;
-  content: '';
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-}
-
-.bg-cookie--bright::before {
-  background-image: url('../img/cookie-bg-white.png');
-  opacity: 0.25;
-}
-
-.bg-cookie--dark::before {
-  background-image: url('../img/cookie-bg-black.png');
-  opacity: 1;
+  &--dark::before {
+    background-image: url('../img/black.png');
+  }
 }

@@ -16,16 +16,17 @@
   }
 
   &__title__clip {
+
     clip-path: polygon(
       0% 0%,
       100% 0%,
-      100% 36%,
-      92% 36%,
+      100% 34%,
+      92% 34%,
       92% 0,
       45% 0,
-      45% 36%,
-      35% 36%,
-      35% 0
+      45% 34%,
+      34% 34%,
+      34% 0
     );
   }
 
@@ -50,6 +51,7 @@
   &__singboard {
     background-color: var(--color-secondary);
     border: 6px solid var(--color-tertiary);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.40), -10px -5px 10px rgba(0, 0, 0, 0.30);
     display: grid;
     grid-column-gap: 500px;
     height: 335px;
@@ -66,25 +68,19 @@
   }
 
   &__text {
-    display: flex;
-    flex-direction: column;
-    line-height: 20px;
+    line-height: 26px;
     padding-top: 40px;
     width: 300px;
   }
-
 }
 
 .florinda {
-  align-items: flex-end;
   grid-area: florinda;
   text-align: end;
 }
 
 .viwer {
-  align-items: flex-start;
   grid-area: viwer;
-  row-gap: 12px;
   text-align: start;
 }
 
@@ -98,19 +94,19 @@
   line-height: 67px;
   overflow: clip;
   white-space: nowrap;
-}
 
-.slide-text--animation {
-  animation: text-slider 30s linear infinite;
-  animation-play-state: running;
+  &--animation {
+    animation: text-slider 30s linear infinite;
+    animation-play-state: running;
+  }
 }
 
 @keyframes text-slider {
   0% {
   transform: translateX(0%);
-  }
+}
 
   100% {
   transform: translateX(-100%);
-  }
+}
 }
