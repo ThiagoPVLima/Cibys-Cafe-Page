@@ -17,7 +17,7 @@
     <body>
         <header class="header bg-color bg-color--bright bg-cookie bg-cookie--bright">
           <div class="headline bg-color">
-            <img src="img/Logo-CybisCafe.png" alt="Logo do Cybis Café." class="headline__logo">
+            <a href="index.html"><img src="img/Logo-CybisCafe.png" alt="Logo do Cybis Café." class="headline__logo"></a>
             <nav>
               <ul class="headline__social">
                 <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
@@ -125,13 +125,15 @@
             </div>
             <div class="clientes__container">
               <div class="card__container">
-                <img class="card__image" src="img/velho.png" alt="">
+                <img class="card__image" id="img_velho" src="img/velho.png" alt="">
+                <audio id="som_velho">
+                  <source src="sounds/velho.mp3" type="mp3">
+                  Seu navegador não suporta o elemento de áudio.
+                </audio>
                 <h1 class="card__title emphasis">Vovô do Café</h1>
-                <p class="card__description">“Quero cafééééé
-                  ÉÉÉÉÉÉÉÉÉÉÉÉÉ
-
-                </p>
-                  <p class="card__description">Isso aqui tá uma porcaria!!”</p>
+                <p class="card__description">“Quero cafééééé ÉÉÉÉÉÉÉÉÉÉÉÉÉ</p>
+                <p class="card__description">Isso aqui tá uma porcaria!!  Que não... Merda nenhuma</p>
+                <p class="card__description">Desculpe!"</p>
               </div> <!--card__container-->
               <div class="card__container">
                 <img class="card__image" src="img/homer.png" alt="">
@@ -153,9 +155,65 @@
               <div class="clientes__tag"></div>
             </div> <!--clientes__container-->
           </section><!--clientes-->
+          <div class="cta bg-color bg-color--bright bg-cookie bg-cookie--bright">
+            <div class="cta__container">
+              <div class="cta__info">
+                <div class="cta__text">
+                  <h1>Assista quando quiser.</h1>
+                  <h2>De qualquer dispositivo.</h2>
+                  <p>Assista pelo celular, computador, tablet ou outros aparelhos.
+                    Assista quando e onde quiser, nao existem mais desculpas para iniciar hoje.</p>
+                </div><!--cta__text-->
+                <div class="cta__buttons">
+                  <a href="#"><img src="img/Youtube-Logo.png" alt="Botão do Youtube."></a>
+                  <a href="#"><img src="img/Twitch-Logo.png" alt="Botão da Twitch."></a>
+                </div><!--cta__buttons-->
+              </div><!--cta__info-->
+              <div class="cta__mockup">
+                <img src="img/mockup.png" alt="Telas com imagens da live.">
+              </div><!--cta__mockup-->
+            </div><!--cta__container-->
+          </div><!--cta-->
         </main>
-        <!-- <footer class="footer">
-        </footer> -->
+        <footer class="footer">
+          <div class="footer__align">
+            <h1>Cybis Café</h1>
+            <div class="footer__container">
+              <div class="footer__map">
+                <h2>Mapa do Site</h2>
+                <a href="#"><p>Home</p></a>
+                <a href="#"><p>About</p></a>
+                <a href="#"><p>Services</p></a>
+                <a href="#"><p>Cookie</p></a>
+                <a href="#"><p>Reviews</p></a>
+                <a href="#"><p>Clients</p></a>
+                <a href="#"><p>Call to Action</p></a>
+              </div>
+              <div class="footer__map">
+                <h2>Redes Sociais</h2>
+                <a href="#"><p>Twitch</p></a>
+                <a href="#"><p>Instagram</p></a>
+                <a href="#"><p>Youtube</p></a>
+                <a href="#"><p>Twitter</p></a>
+                <a href="#"><p>Reddit</p></a>
+                <a href="#"><p>Facebook</p></a>
+              </div>
+              <div class="footer__map">
+                <h2>Contato</h2>
+                <a href="#"><p>E-mail</p></a>
+                <a href="#"><p>Discord</p></a>
+              </div>
+              <div class="footer__map">
+                <h2>Developer</h2>
+                <a href="#"><p>GitHub</p></a>
+                <a href="#"><p>Behance</p></a>
+                <a href="#"><p>Linkedin</p></a>
+              </div>
+            </div><!--footer__container-->
+          </div>
+          <h3>Create By Thiago Lima</h3>
+          <h4>Copyright 2024 Rio de Janeiro . All Right Reseverd.</h4>
+        </footer>
       <script type="module" src="js/index.js"></script>
     </body>
 </html>
