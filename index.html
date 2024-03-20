@@ -16,14 +16,14 @@
     </style>
     <body>
         <header class="header bg-color bg-color--bright bg-cookie bg-cookie--bright">
-          <div class="headline bg-color">
+          <div class="headline bg-color" id="home">
             <a href="index.html"><img src="img/Logo-CybisCafe.png" alt="Logo do Cybis Café." class="headline__logo"></a>
             <nav>
               <ul class="headline__social">
                 <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                <li><a href="https://www.youtube.com/@CybisCafe" target="_blank" rel="noopener noreferrer">YouTube</a></li>
                 <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Twitch</a></li>
+                <li><a href="https://www.twitch.tv/cybiscafe" target="_blank" rel="noopener noreferrer">Twitch</a></li>
               </ul>
             </nav>
           </div> <!--headline bg-color bg-color--bright-->
@@ -35,7 +35,15 @@
               Cybis Café
             </div> <!--hero__title hero__title__clip-->
             <p class="hero__slogan">Um lugar de loucos para poucos</p>
-            <img src="img/xicara.png" alt="Uma xícara com gatinhos fofos em volta dela." class="hero__cup">
+            <img src="img/xicara.png" alt="Uma xícara com gatinhos fofos em volta dela." class="hero__cup" id="hero_cup">
+            <audio id="miau1" preload="auto">
+              <source src="sounds/jess.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+            <audio id="miau2" preload="auto">
+              <source src="sounds/dilera.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
             <div class="hero__singboard">
               <div class="hero__text florinda">
                 <img src="img/cookie.png" alt="Um biscoito." class="hero__cookie">
@@ -54,7 +62,7 @@
           </div> <!-- hero -->
         </header>
         <main class="main">
-          <section class="about bg-color bg-color--dark">
+          <section class="about bg-color bg-color--dark" id="about">
             <div class="about__tag about-bg bg-cookie bg-cookie--dark"></div> <!--tag about-->
             <div class="about">
               <div class="perfil">
@@ -74,10 +82,10 @@
                   Sejam bem-vindos às minhas lives! Vamos nos divertir juntos!
                   Espero que esta versão seja mais próxima do que você está procurando!</p>
               </div> <!--about__presentation-->
+              <img src="img/arrow.png" alt="Seta pra baixo" class="about__arrow"> <!--arrow-->
             </div> <!--about-->
-            <img src="img/arrow.png" alt="Seta pra baixo" class="about__arrow"> <!--arrow-->
           </section> <!--about-->
-          <section class="services bg-color bg-color--dark">
+          <section class="services bg-color bg-color--dark" id="services">
             <div class="services__title__container">
               <div class="services__title services__title-back"><span class="emphasis">-</span> Services <span class="emphasis">-</span></div>
               <div class="services__title services__title-clip">- Services -</div>
@@ -105,7 +113,7 @@
               </div> <!--card__container-->
             </div> <!--services__container-->
           </section> <!--services-->
-          <section class="cookie bg-color bg-color--bright bg bg-cookie bg-cookie--bright">
+          <section class="cookie bg-color bg-color--bright bg bg-cookie bg-cookie--bright" id="cookie">
             <div class="cookie__tagline"></div>
             <div class="cookie__container">
               <img class="cookie__text" src="img/professional-streamer.png" alt="">
@@ -115,19 +123,19 @@
             </div> <!--cookie__container-->
             <div></div>
           </section> <!--cookie-->
-          <section class="review bg-color bg-color--dark bg-cookie--dark bg-cookie">
+          <section class="review bg-color bg-color--dark bg-cookie--dark bg-cookie" id="reviews">
 
           </section> <!--review-->
-          <section class="clientes bg-color bg-color--bright bg-cookie bg-cookie--bright">
+          <section class="clientes bg-color bg-color--bright bg-cookie bg-cookie--bright" id="clientes">
             <div class="clientes__title__container">
               <div class="clientes__title clientes__title-back"><span class="emphasis">-</span> Clientes <span class="emphasis">-</span></div>
               <div class="clientes__title clientes__title-clip">- Clientes -</div>
             </div>
             <div class="clientes__container">
               <div class="card__container">
-                <img class="card__image" id="img_velho" src="img/velho.png" alt="">
-                <audio id="som_velho">
-                  <source src="sounds/velho.mp3" type="mp3">
+                <img class="card__image minha-imagem" id="img_velho" src="img/velho.png" alt="">
+                <audio id="audio1" preload="auto">
+                  <source src="sounds/velho.mp3" type="audio/mpeg">
                   Seu navegador não suporta o elemento de áudio.
                 </audio>
                 <h1 class="card__title emphasis">Vovô do Café</h1>
@@ -136,18 +144,30 @@
                 <p class="card__description">Desculpe!"</p>
               </div> <!--card__container-->
               <div class="card__container">
-                <img class="card__image" src="img/homer.png" alt="">
+                <img class="card__image minha-imagem" src="img/homer.png" alt="">
+                <audio id="audio2" preload="auto">
+                  <source src="sounds/homer.mp3" type="audio/mpeg">
+                  Seu navegador não suporta o elemento de áudio.
+                </audio>
                 <h1 class="card__title emphasis">Homer</h1>
                 <p class="card__description">“Existem três jeitos de fazer as coisas: O jeito certo, o jeito errado e o meu jeito. Que é igual ao jeito errado, só que mais rápido.”</p>
               </div> <!--card__container-->
               <div class="card__container">
-                <img class="card__image" src="img/pica-pau.png" alt="">
+                <img class="card__image minha-imagem" src="img/pica-pau.png" alt="">
+                <audio id="audio3" preload="auto">
+                  <source src="sounds/pica-pau.mp3" type="audio/mpeg">
+                  Seu navegador não suporta o elemento de áudio.
+                </audio>
                 <h1 class="card__title emphasis">Pica-Pau</h1>
                 <p class="card__description">“Essa gente inventa cada coisa.”
                 </p>
               </div> <!--card__container-->
               <div class="card__container">
-                <img class="card__image" src="img/cosmo.png" alt="">
+                <img class="card__image minha-imagem" src="img/cosmo.png" alt="">
+                <audio id="audio4" preload="auto">
+                  <source src="sounds/cosmo.mp3" type="audio/mpeg">
+                  Seu navegador não suporta o elemento de áudio.
+                </audio>
                 <h1 class="card__title emphasis">Cosmo</h1>
                 <p class="card__description">“Uau! É sensacional!
                   Café café café café!"</p>
@@ -155,7 +175,7 @@
               <div class="clientes__tag"></div>
             </div> <!--clientes__container-->
           </section><!--clientes-->
-          <div class="cta bg-color bg-color--bright bg-cookie bg-cookie--bright">
+          <div class="cta bg-color bg-color--bright bg-cookie bg-cookie--bright" id="cta">
             <div class="cta__container">
               <div class="cta__info">
                 <div class="cta__text">
@@ -165,8 +185,8 @@
                     Assista quando e onde quiser, nao existem mais desculpas para iniciar hoje.</p>
                 </div><!--cta__text-->
                 <div class="cta__buttons">
-                  <a href="#"><img src="img/Youtube-Logo.png" alt="Botão do Youtube."></a>
-                  <a href="#"><img src="img/Twitch-Logo.png" alt="Botão da Twitch."></a>
+                  <a href="https://www.youtube.com/@CybisCafe" target="_blank"><img src="img/Youtube-Logo.png" alt="Botão do Youtube."></a>
+                  <a href="https://www.twitch.tv/cybiscafe" target="_blank"><img src="img/Twitch-Logo.png" alt="Botão da Twitch."></a>
                 </div><!--cta__buttons-->
               </div><!--cta__info-->
               <div class="cta__mockup">
@@ -181,19 +201,19 @@
             <div class="footer__container">
               <div class="footer__map">
                 <h2>Mapa do Site</h2>
-                <a href="#"><p>Home</p></a>
-                <a href="#"><p>About</p></a>
-                <a href="#"><p>Services</p></a>
-                <a href="#"><p>Cookie</p></a>
-                <a href="#"><p>Reviews</p></a>
-                <a href="#"><p>Clients</p></a>
-                <a href="#"><p>Call to Action</p></a>
+                <a href="#home"><p>Home</p></a>
+                <a href="#about"><p>About</p></a>
+                <a href="#services"><p>Services</p></a>
+                <a href="#cookie"><p>Cookie</p></a>
+                <a href="#reviews"><p>Reviews</p></a>
+                <a href="#clientes"><p>Clients</p></a>
+                <a href="#cta"><p>Call to Action</p></a>
               </div>
               <div class="footer__map">
                 <h2>Redes Sociais</h2>
-                <a href="#"><p>Twitch</p></a>
+                <a href="https://www.twitch.tv/cybiscafe" target="_blank"><p>Twitch</p></a>
                 <a href="#"><p>Instagram</p></a>
-                <a href="#"><p>Youtube</p></a>
+                <a href="https://www.youtube.com/@CybisCafe" target="_blank"><p>Youtube</p></a>
                 <a href="#"><p>Twitter</p></a>
                 <a href="#"><p>Reddit</p></a>
                 <a href="#"><p>Facebook</p></a>
@@ -205,9 +225,9 @@
               </div>
               <div class="footer__map">
                 <h2>Developer</h2>
-                <a href="#"><p>GitHub</p></a>
-                <a href="#"><p>Behance</p></a>
-                <a href="#"><p>Linkedin</p></a>
+                <a href="https://github.com/ThiagoPVLima" target="_blank"><p>GitHub</p></a>
+                <a href="https://www.behance.net/LimaThii" target="_blank"><p>Behance</p></a>
+                <a href="https://www.linkedin.com/in/thiago-lima-312a0aaa/" target="_blank"><p>Linkedin</p></a>
               </div>
             </div><!--footer__container-->
           </div>

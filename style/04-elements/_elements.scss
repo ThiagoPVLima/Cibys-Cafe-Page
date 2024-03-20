@@ -1,6 +1,7 @@
 html {
   position: relative;
   background-color: var(--color-primary);
+  scroll-behavior: smooth;
 
   // &::after {
   //   background-image: url('../img/cookie-bg-white.png');
