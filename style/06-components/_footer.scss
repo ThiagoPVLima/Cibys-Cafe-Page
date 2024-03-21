@@ -7,15 +7,15 @@
     background-image: url('../img/footer-bg.png');
     content: '';
     height: 100%;
-    left: -48%;
     position: absolute;
     width: 100vw;
     z-index: var(--z-index-below);
   }
 
     &__align {
+      margin: 0 auto;
       margin-top: 40px;
-      padding: 0 100px;
+      width: 1080px;
     }
 
     h1 {
@@ -37,15 +37,15 @@
 
     h3, h4 {
       font-size: var(--space-xs);
-      position: absolute;
       left: 50%;
+      position: absolute;
       transform: translate(-50%);
     }
 
     a {
       color: var(--color-primary);
-      text-decoration: none;
       font-size: var(--space-xs);
+      text-decoration: none;
     }
 
     &__container {

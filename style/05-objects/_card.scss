@@ -1,16 +1,17 @@
 .card {
   &__container {
-    width: 550px;
     height: 270px;
     overflow: hidden;
+    padding: 0 20px;
+    width: 550px;
   }
 
   &__image {
     clip-path: circle(50%);
     float: left;
     height: 110px;
-    width: 110px;
     margin: 0 20px 20px 0;
+    width: 110px;
   }
 
   &__title {

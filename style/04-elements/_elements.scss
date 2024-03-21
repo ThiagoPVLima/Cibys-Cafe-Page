@@ -19,12 +19,14 @@ html {
 }
 
 body {
-  display: grid;
-  grid-template-columns: 1fr 1280px 1fr;
-  grid-template-areas:
-    '. header .'
-    '. main .'
-    '. footer .';
+  // display: grid;
+  // grid-template-columns: 1fr 1280px 1fr;
+  // grid-template-areas:
+  //   '. header .'
+  //   '. main .'
+  //   '. footer .';
+  display: flex;
+  flex-direction: column;
 }
 
 header {

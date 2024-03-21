@@ -5,6 +5,8 @@
   height: 80px;
   justify-content: space-between;
   margin: 0 90px;
+  margin: 0 auto;
+  width: 1080px;
 
   &::before {
     background-color: var(--color-secondary);
@@ -25,7 +27,7 @@
   gap: 26px;
   list-style: none;
 
-  li a {
+li a {
     color: var(--color-secondary);
     font-family: var(--font-family-philosopher);
     font-size: var(--font-step--1);

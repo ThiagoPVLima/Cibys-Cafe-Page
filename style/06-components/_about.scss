@@ -4,6 +4,7 @@
   font-size: 32px;
   height: 720px;
   justify-content: space-around;
+  margin: 0 auto;
   width: 1280px;
 
   &::before {
@@ -15,7 +16,6 @@
     font-family: var(--font-family-cooper);
     font-size: var(--font-step-5);
     height: 180px;
-    left: 0;
     overflow: clip;
     position: absolute;
     top: 656;
